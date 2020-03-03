@@ -6,7 +6,7 @@ import logoutPage from "../pageobjects/logoutPage";
 import Search from "../pageobjects/Search";
 let assert = require("chai").assert;
 let expect = require("chai").expect;
-
+// given condition
 Given(/^I'm on the Home page$/, function() {
   browser.maximizeWindow();
   BasePage.OpenUrl();
