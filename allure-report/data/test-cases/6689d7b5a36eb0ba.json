@@ -1,0 +1,56 @@
+{
+  "uid" : "6689d7b5a36eb0ba",
+  "name" : "Then I should see user input section",
+  "fullName" : "performing opeartions in espn home page: Verifying search button is present.Then I should see user input section",
+  "historyId" : "9006487a3eba2c4d1ab12ed2c5f94ab",
+  "time" : {
+    "start" : 1583166112074,
+    "stop" : 1583166112568,
+    "duration" : 494
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "performing opeartions in espn home page: Verifying search button is present"
+  }, {
+    "name" : "testClass",
+    "value" : "performing opeartions in espn home page: Verifying search button is present"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then I should see user input section"
+  }, {
+    "name" : "package",
+    "value" : "performing opeartions in espn home page: Verifying search button is present"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6689d7b5a36eb0ba.json",
+  "parameterValues" : [ "chrome" ]
+}

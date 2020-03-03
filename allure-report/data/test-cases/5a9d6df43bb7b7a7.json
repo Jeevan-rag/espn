@@ -1,0 +1,56 @@
+{
+  "uid" : "5a9d6df43bb7b7a7",
+  "name" : "Given I'm on the Home page",
+  "fullName" : "performing opeartions in espn home page: Login with valid user credentials.Given I'm on the Home page",
+  "historyId" : "f224162784dad6e762e60cb0d0300110",
+  "time" : {
+    "start" : 1583167479466,
+    "stop" : 1583167486357,
+    "duration" : 6891
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "performing opeartions in espn home page: Login with valid user credentials"
+  }, {
+    "name" : "testClass",
+    "value" : "performing opeartions in espn home page: Login with valid user credentials"
+  }, {
+    "name" : "testMethod",
+    "value" : "Given I'm on the Home page"
+  }, {
+    "name" : "package",
+    "value" : "performing opeartions in espn home page: Login with valid user credentials"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5a9d6df43bb7b7a7.json",
+  "parameterValues" : [ "chrome" ]
+}

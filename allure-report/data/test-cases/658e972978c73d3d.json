@@ -1,0 +1,56 @@
+{
+  "uid" : "658e972978c73d3d",
+  "name" : "And I login with invalid user credentials",
+  "fullName" : "performing opeartions in espn home page: Login with invalid user credentials.And I login with invalid user credentials",
+  "historyId" : "e82295b24f0aa8ef6dc78fc9c332e7fe",
+  "time" : {
+    "start" : 1583168385287,
+    "stop" : 1583168391963,
+    "duration" : 6676
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "performing opeartions in espn home page: Login with invalid user credentials"
+  }, {
+    "name" : "testClass",
+    "value" : "performing opeartions in espn home page: Login with invalid user credentials"
+  }, {
+    "name" : "testMethod",
+    "value" : "And I login with invalid user credentials"
+  }, {
+    "name" : "package",
+    "value" : "performing opeartions in espn home page: Login with invalid user credentials"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "658e972978c73d3d.json",
+  "parameterValues" : [ "chrome" ]
+}

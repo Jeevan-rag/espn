@@ -3,155 +3,77 @@
   "name" : "behaviors",
   "children" : [ {
     "name" : "Given I'm on the Home page",
-    "uid" : "e0494e82713a2b67",
+    "uid" : "85d00bec2e7afdac",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1583209738685,
-      "stop" : 1583209745887,
-      "duration" : 7202
+      "start" : 1583230844002,
+      "stop" : 1583230851709,
+      "duration" : 7707
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ "chrome" ]
   }, {
     "name" : "When I click on log in option",
-    "uid" : "93e73637e8a6d195",
+    "uid" : "36138037beffafa8",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1583209745887,
-      "stop" : 1583209746597,
-      "duration" : 710
+      "start" : 1583230851709,
+      "stop" : 1583230852707,
+      "duration" : 998
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ "chrome" ]
   }, {
     "name" : "And I shall be on login page",
-    "uid" : "198a8bc2c12bf16e",
+    "uid" : "d28d7da0c9bac16f",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1583209746597,
-      "stop" : 1583209747052,
-      "duration" : 455
+      "start" : 1583230852707,
+      "stop" : 1583230853250,
+      "duration" : 543
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ "chrome" ]
   }, {
     "name" : "And I login with valid user credentials",
-    "uid" : "2f27f787c5213d10",
+    "uid" : "402b07734c77bbc3",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1583209747052,
-      "stop" : 1583209747833,
-      "duration" : 781
+      "start" : 1583230853251,
+      "stop" : 1583230854288,
+      "duration" : 1037
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ "chrome" ]
   }, {
     "name" : "Then I should be logged in successfully",
-    "uid" : "b3e9e142b1f0ec1c",
+    "uid" : "e9d18cd26115da7",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1583209747833,
-      "stop" : 1583209755994,
-      "duration" : 8161
+      "start" : 1583230854288,
+      "stop" : 1583230864539,
+      "duration" : 10251
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ "chrome" ]
   }, {
     "name" : "Hook",
-    "uid" : "e2af2703c0aff064",
+    "uid" : "a49d6402f82d1634",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1583209755994,
-      "stop" : 1583209755994,
-      "duration" : 0
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "chrome" ]
-  }, {
-    "name" : "Given I'm on the Home page",
-    "uid" : "55e04376e7bb5a72",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1583209756002,
-      "stop" : 1583209758535,
-      "duration" : 2533
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "chrome" ]
-  }, {
-    "name" : "When I click on log in option",
-    "uid" : "6883e151d589c69a",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1583209758535,
-      "stop" : 1583209759124,
-      "duration" : 589
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "chrome" ]
-  }, {
-    "name" : "And I shall be on login page",
-    "uid" : "e67a0c56081e9c41",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1583209759124,
-      "stop" : 1583209759594,
-      "duration" : 470
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "chrome" ]
-  }, {
-    "name" : "And I login with invalid user credentials",
-    "uid" : "b8d06e6789faa2f7",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1583209759594,
-      "stop" : 1583209763326,
-      "duration" : 3732
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "chrome" ]
-  }, {
-    "name" : "Then I should not get logged in",
-    "uid" : "a3373dcc98997085",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1583209763326,
-      "stop" : 1583209763751,
-      "duration" : 425
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "chrome" ]
-  }, {
-    "name" : "Hook",
-    "uid" : "ce581c4827575fc3",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1583209763751,
-      "stop" : 1583209763752,
+      "start" : 1583230864539,
+      "stop" : 1583230864540,
       "duration" : 1
     },
     "flaky" : false,
@@ -159,51 +81,129 @@
     "parameters" : [ "chrome" ]
   }, {
     "name" : "Given I'm on the Home page",
-    "uid" : "496894d24ae04cc3",
+    "uid" : "c47961a92437c363",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1583209763814,
-      "stop" : 1583209766758,
-      "duration" : 2944
+      "start" : 1583230864554,
+      "stop" : 1583230868298,
+      "duration" : 3744
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ "chrome" ]
   }, {
-    "name" : "When I click on search option",
-    "uid" : "19af70b2431aa592",
+    "name" : "When I click on log in option",
+    "uid" : "c9d07c4a8aba84e3",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1583209766759,
-      "stop" : 1583209767489,
-      "duration" : 730
+      "start" : 1583230868298,
+      "stop" : 1583230869049,
+      "duration" : 751
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ "chrome" ]
   }, {
-    "name" : "Then I should see user input section",
-    "uid" : "5d950c185c62d403",
+    "name" : "And I shall be on login page",
+    "uid" : "d3e8f9192a1537ba",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1583209767489,
-      "stop" : 1583209768069,
-      "duration" : 580
+      "start" : 1583230869049,
+      "stop" : 1583230869612,
+      "duration" : 563
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "And I login with invalid user credentials",
+    "uid" : "5bd2cca1108a6464",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1583230869612,
+      "stop" : 1583230873594,
+      "duration" : 3982
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "Then I should not get logged in",
+    "uid" : "6245b090b942b828",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1583230873594,
+      "stop" : 1583230874064,
+      "duration" : 470
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ "chrome" ]
   }, {
     "name" : "Hook",
-    "uid" : "2aa6be65374f4efa",
+    "uid" : "574e05999802c9f",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1583209768069,
-      "stop" : 1583209768069,
+      "start" : 1583230874064,
+      "stop" : 1583230874064,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "Given I'm on the Home page",
+    "uid" : "4397aa0d6bfd9f1e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1583230874070,
+      "stop" : 1583230877654,
+      "duration" : 3584
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "When I click on search option",
+    "uid" : "f5c75d51a40ac32f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1583230877654,
+      "stop" : 1583230878448,
+      "duration" : 794
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "Then I should see user input section",
+    "uid" : "c3ca5e03b3f31684",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1583230878448,
+      "stop" : 1583230879093,
+      "duration" : 645
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "Hook",
+    "uid" : "ddd9fd379c656fc7",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1583230879093,
+      "stop" : 1583230879093,
       "duration" : 0
     },
     "flaky" : false,

@@ -1,0 +1,415 @@
+{
+  "uid" : "e9d18cd26115da7",
+  "name" : "Then I should be logged in successfully",
+  "fullName" : "performing opeartions in espn home page: Login with valid user credentials.Then I should be logged in successfully",
+  "historyId" : "f7f772b174872f1b4c9f62f69786af05",
+  "time" : {
+    "start" : 1583230854288,
+    "stop" : 1583230864539,
+    "duration" : 10251
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "performing opeartions in espn home page: Login with valid user credentials"
+  }, {
+    "name" : "testClass",
+    "value" : "performing opeartions in espn home page: Login with valid user credentials"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then I should be logged in successfully"
+  }, {
+    "name" : "package",
+    "value" : "performing opeartions in espn home page: Login with valid user credentials"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "91fc7d1af0c846e9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583209747833,
+        "stop" : 1583209755994,
+        "duration" : 8161
+      }
+    }, {
+      "uid" : "27ddebe46520a580",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583173213755,
+        "stop" : 1583173231644,
+        "duration" : 17889
+      }
+    }, {
+      "uid" : "244998a6ce6e1ce9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583173119474,
+        "stop" : 1583173127513,
+        "duration" : 8039
+      }
+    }, {
+      "uid" : "ce03a57220439a27",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583172876848,
+        "stop" : 1583172885196,
+        "duration" : 8348
+      }
+    }, {
+      "uid" : "7ee6ebc392e1b9da",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583171887556,
+        "stop" : 1583171896225,
+        "duration" : 8669
+      }
+    }, {
+      "uid" : "996f65ad6b9ff1ea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583171038881,
+        "stop" : 1583171047453,
+        "duration" : 8572
+      }
+    }, {
+      "uid" : "25175d0236bf90ca",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583169546247,
+        "stop" : 1583169554849,
+        "duration" : 8602
+      }
+    }, {
+      "uid" : "261fced5ef54fc42",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583169480754,
+        "stop" : 1583169489229,
+        "duration" : 8475
+      }
+    }, {
+      "uid" : "79fe92242d7a28e7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583169273344,
+        "stop" : 1583169282144,
+        "duration" : 8800
+      }
+    }, {
+      "uid" : "4c4117ba57099462",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583168874948,
+        "stop" : 1583168883380,
+        "duration" : 8432
+      }
+    }, {
+      "uid" : "3caa6e1a87e09e56",
+      "status" : "failed",
+      "statusDetails" : "expected false to be true",
+      "time" : {
+        "start" : 1583168380957,
+        "stop" : 1583168381407,
+        "duration" : 450
+      }
+    }, {
+      "uid" : "bd578500869b620e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583167887397,
+        "stop" : 1583167896014,
+        "duration" : 8617
+      }
+    }, {
+      "uid" : "276e80520e7a6dee",
+      "status" : "broken",
+      "statusDetails" : "abc is not defined",
+      "time" : {
+        "start" : 1583167825286,
+        "stop" : 1583167825723,
+        "duration" : 437
+      }
+    }, {
+      "uid" : "6e7a4a31ee611451",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583167693141,
+        "stop" : 1583167701828,
+        "duration" : 8687
+      }
+    }, {
+      "uid" : "b32bd95b78bcb23c",
+      "status" : "failed",
+      "statusDetails" : "expected false to not exist",
+      "time" : {
+        "start" : 1583167547973,
+        "stop" : 1583167548424,
+        "duration" : 451
+      }
+    }, {
+      "uid" : "675c74b65cff6893",
+      "status" : "failed",
+      "statusDetails" : "expected false to not exist",
+      "time" : {
+        "start" : 1583167488306,
+        "stop" : 1583167488724,
+        "duration" : 418
+      }
+    }, {
+      "uid" : "66d9974cc2dce6b6",
+      "status" : "failed",
+      "statusDetails" : "expected false to not exist",
+      "time" : {
+        "start" : 1583167158892,
+        "stop" : 1583167159440,
+        "duration" : 548
+      }
+    }, {
+      "uid" : "e5e1c8cef71fbce",
+      "status" : "failed",
+      "statusDetails" : "expected { Object (sessionId, error, ...) } to not exist",
+      "time" : {
+        "start" : 1583166621716,
+        "stop" : 1583166622125,
+        "duration" : 409
+      }
+    }, {
+      "uid" : "abd9e529bec30df4",
+      "status" : "failed",
+      "statusDetails" : "expected { Object (sessionId, error, ...) } to not exist",
+      "time" : {
+        "start" : 1583166587322,
+        "stop" : 1583166587737,
+        "duration" : 415
+      }
+    }, {
+      "uid" : "a89efb9b53be1a31",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583166349203,
+        "stop" : 1583166358064,
+        "duration" : 8861
+      }
+    }, {
+      "uid" : "42a1c33fd3a89dac",
+      "status" : "broken",
+      "statusDetails" : "this.logoutBtn is not a function",
+      "time" : {
+        "start" : 1583166099041,
+        "stop" : 1583166104350,
+        "duration" : 5309
+      }
+    }, {
+      "uid" : "de325da5e4bae60d",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'click' of undefined",
+      "time" : {
+        "start" : 1583165966266,
+        "stop" : 1583165971664,
+        "duration" : 5398
+      }
+    }, {
+      "uid" : "58635e82315864fe",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'click' of undefined",
+      "time" : {
+        "start" : 1583165840142,
+        "stop" : 1583165844699,
+        "duration" : 4557
+      }
+    }, {
+      "uid" : "6f610951c0d2979a",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"//a[@id='global-user-trigger']\" because element wasn't found",
+      "time" : {
+        "start" : 1583165656163,
+        "stop" : 1583165666588,
+        "duration" : 10425
+      }
+    }, {
+      "uid" : "999a175b60956014",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'click' of undefined",
+      "time" : {
+        "start" : 1583165585229,
+        "stop" : 1583165589978,
+        "duration" : 4749
+      }
+    }, {
+      "uid" : "859c75b2d01ab187",
+      "status" : "failed",
+      "statusDetails" : "expected { Object (sessionId, error, ...) } to not exist",
+      "time" : {
+        "start" : 1583165404885,
+        "stop" : 1583165405326,
+        "duration" : 441
+      }
+    }, {
+      "uid" : "bfec60f4b205dc65",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1583165320242,
+        "stop" : 1583165320242,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "7c2426b0f50586aa",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1583165186270,
+        "stop" : 1583165186270,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "2f8435d9a05ac61",
+      "status" : "failed",
+      "statusDetails" : "expected { Object (sessionId, error, ...) } to not exist",
+      "time" : {
+        "start" : 1583164925449,
+        "stop" : 1583164925876,
+        "duration" : 427
+      }
+    }, {
+      "uid" : "d6077a815021eb9c",
+      "status" : "failed",
+      "statusDetails" : "true: expected { Object (sessionId, error, ...) } to not exist",
+      "time" : {
+        "start" : 1583164643119,
+        "stop" : 1583164643556,
+        "duration" : 437
+      }
+    }, {
+      "uid" : "c8d224e5d0348fdd",
+      "status" : "broken",
+      "statusDetails" : "pagebuttons is not defined",
+      "time" : {
+        "start" : 1583164503423,
+        "stop" : 1583164503824,
+        "duration" : 401
+      }
+    }, {
+      "uid" : "fbf289489a0d8eef",
+      "status" : "broken",
+      "statusDetails" : "_logoutPage.default.loginbtn is not a function",
+      "time" : {
+        "start" : 1583164316116,
+        "stop" : 1583164316515,
+        "duration" : 399
+      }
+    }, {
+      "uid" : "d9e55b10bee45e75",
+      "status" : "broken",
+      "statusDetails" : "_logoutPage.default.loginbtn is not a function",
+      "time" : {
+        "start" : 1583163976611,
+        "stop" : 1583163977046,
+        "duration" : 435
+      }
+    }, {
+      "uid" : "d3ba1d72ace86541",
+      "status" : "broken",
+      "statusDetails" : "_logoutPage.default.loginbtn is not a function",
+      "time" : {
+        "start" : 1583163830960,
+        "stop" : 1583163831360,
+        "duration" : 400
+      }
+    }, {
+      "uid" : "150687e6a7709286",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1583163742463,
+        "stop" : 1583163742463,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "f04d9e82a90a1442",
+      "status" : "failed",
+      "statusDetails" : "true: expected { Object (sessionId, error, ...) } to not exist",
+      "time" : {
+        "start" : 1583144289664,
+        "stop" : 1583144290101,
+        "duration" : 437
+      }
+    }, {
+      "uid" : "e0c5991344006be7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583143942575,
+        "stop" : 1583143949986,
+        "duration" : 7411
+      }
+    }, {
+      "uid" : "5dd8964df8953d71",
+      "status" : "broken",
+      "statusDetails" : "_page.default.logoutbtn.click is not a function",
+      "time" : {
+        "start" : 1583143835712,
+        "stop" : 1583143839639,
+        "duration" : 3927
+      }
+    }, {
+      "uid" : "998037c6f036592c",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1583143585355,
+        "stop" : 1583143585356,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "2ef27154c54f61a5",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1583143150662,
+        "stop" : 1583143150662,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "5229cf4c64c9004e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583142220315,
+        "stop" : 1583142227475,
+        "duration" : 7160
+      }
+    }, {
+      "uid" : "d4da4d8b5d3c4130",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583142117910,
+        "stop" : 1583142125554,
+        "duration" : 7644
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e9d18cd26115da7.json",
+  "parameterValues" : [ "chrome" ]
+}
