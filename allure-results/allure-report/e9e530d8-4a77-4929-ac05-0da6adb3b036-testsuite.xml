@@ -1,0 +1,116 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1583165646652' stop='1583165666590'>
+    <name>performing opeartions in espn home page: Login with valid user credentials</name>
+    <title>performing opeartions in espn home page: Login with valid user credentials</title>
+    <test-cases>
+        <test-case start='1583165646653' status='passed' stop='1583165646654'>
+            <name>Hook</name>
+            <title>Hook</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1583165646654' status='passed' stop='1583165654279'>
+            <name>Given I'm on the Home page</name>
+            <title>Given I'm on the Home page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1583165654279' status='passed' stop='1583165654909'>
+            <name>When I click on log in option</name>
+            <title>When I click on log in option</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1583165654910' status='passed' stop='1583165655393'>
+            <name>And I shall be on login page</name>
+            <title>And I shall be on login page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1583165655393' status='passed' stop='1583165656163'>
+            <name>And I login with valid user credentials</name>
+            <title>And I login with valid user credentials</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1583165656163' status='broken' stop='1583165666588'>
+            <name>Then I should be logged in successfully</name>
+            <title>Then I should be logged in successfully</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Can't call click on element with selector "//a[@id='global-user-trigger']" because element wasn't found</message>
+                <stack-trace>Error: Can't call click on element with selector "//a[@id='global-user-trigger']" because element wasn't found
+                    at implicitWait (C:\Jeevan webdriver\Wedriverio2\node_modules\webdriverio\build\utils\implicitWait.js:22:13)
+                    at Element.runCommandWithHooks (C:\Jeevan webdriver\Wedriverio2\node_modules\@wdio\sync\build\wrapCommand.js:82:22)
+                    at Element.wrapCommandFn (C:\Jeevan webdriver\Wedriverio2\node_modules\@wdio\sync\build\wrapCommand.js:59:40)
+                    at Element.click (C:\Jeevan webdriver\Wedriverio2\node_modules\webdriverio\build\middlewares.js:40:8)
+                    at World.&lt;anonymous> (C:\Jeevan webdriver\Wedriverio2\src\steps/espn.stp.js:39:47)
+                    at World.executeSync (C:\Jeevan webdriver\Wedriverio2\node_modules\@wdio\sync\build\index.js:56:18)
+                    at C:\Jeevan webdriver\Wedriverio2\node_modules\@wdio\sync\build\index.js:82:70</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1583165666589' status='passed' stop='1583165666590'>
+            <name>Hook</name>
+            <title>Hook</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,225 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "performing opeartions in espn home page: Login with valid user credentials",
+    "children" : [ {
+      "name" : "Given I'm on the Home page",
+      "uid" : "e0494e82713a2b67",
+      "parentUid" : "275e313c5049dcd402b6cbf91811eba5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583209738685,
+        "stop" : 1583209745887,
+        "duration" : 7202
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "When I click on log in option",
+      "uid" : "93e73637e8a6d195",
+      "parentUid" : "275e313c5049dcd402b6cbf91811eba5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583209745887,
+        "stop" : 1583209746597,
+        "duration" : 710
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "And I shall be on login page",
+      "uid" : "198a8bc2c12bf16e",
+      "parentUid" : "275e313c5049dcd402b6cbf91811eba5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583209746597,
+        "stop" : 1583209747052,
+        "duration" : 455
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "And I login with valid user credentials",
+      "uid" : "2f27f787c5213d10",
+      "parentUid" : "275e313c5049dcd402b6cbf91811eba5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583209747052,
+        "stop" : 1583209747833,
+        "duration" : 781
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Then I should be logged in successfully",
+      "uid" : "b3e9e142b1f0ec1c",
+      "parentUid" : "275e313c5049dcd402b6cbf91811eba5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583209747833,
+        "stop" : 1583209755994,
+        "duration" : 8161
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Hook",
+      "uid" : "e2af2703c0aff064",
+      "parentUid" : "275e313c5049dcd402b6cbf91811eba5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583209755994,
+        "stop" : 1583209755994,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "275e313c5049dcd402b6cbf91811eba5"
+  }, {
+    "name" : "performing opeartions in espn home page: Login with invalid user credentials",
+    "children" : [ {
+      "name" : "Given I'm on the Home page",
+      "uid" : "55e04376e7bb5a72",
+      "parentUid" : "2a4f2efa3c512b59625c5c1a1867d9a6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583209756002,
+        "stop" : 1583209758535,
+        "duration" : 2533
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "When I click on log in option",
+      "uid" : "6883e151d589c69a",
+      "parentUid" : "2a4f2efa3c512b59625c5c1a1867d9a6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583209758535,
+        "stop" : 1583209759124,
+        "duration" : 589
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "And I shall be on login page",
+      "uid" : "e67a0c56081e9c41",
+      "parentUid" : "2a4f2efa3c512b59625c5c1a1867d9a6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583209759124,
+        "stop" : 1583209759594,
+        "duration" : 470
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "And I login with invalid user credentials",
+      "uid" : "b8d06e6789faa2f7",
+      "parentUid" : "2a4f2efa3c512b59625c5c1a1867d9a6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583209759594,
+        "stop" : 1583209763326,
+        "duration" : 3732
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Then I should not get logged in",
+      "uid" : "a3373dcc98997085",
+      "parentUid" : "2a4f2efa3c512b59625c5c1a1867d9a6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583209763326,
+        "stop" : 1583209763751,
+        "duration" : 425
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Hook",
+      "uid" : "ce581c4827575fc3",
+      "parentUid" : "2a4f2efa3c512b59625c5c1a1867d9a6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583209763751,
+        "stop" : 1583209763752,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "2a4f2efa3c512b59625c5c1a1867d9a6"
+  }, {
+    "name" : "performing opeartions in espn home page: Verifying search button is present",
+    "children" : [ {
+      "name" : "Given I'm on the Home page",
+      "uid" : "496894d24ae04cc3",
+      "parentUid" : "de0ce163950ca195285d214756ab6aaf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583209763814,
+        "stop" : 1583209766758,
+        "duration" : 2944
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "When I click on search option",
+      "uid" : "19af70b2431aa592",
+      "parentUid" : "de0ce163950ca195285d214756ab6aaf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583209766759,
+        "stop" : 1583209767489,
+        "duration" : 730
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Then I should see user input section",
+      "uid" : "5d950c185c62d403",
+      "parentUid" : "de0ce163950ca195285d214756ab6aaf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583209767489,
+        "stop" : 1583209768069,
+        "duration" : 580
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Hook",
+      "uid" : "2aa6be65374f4efa",
+      "parentUid" : "de0ce163950ca195285d214756ab6aaf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583209768069,
+        "stop" : 1583209768069,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "de0ce163950ca195285d214756ab6aaf"
+  } ]
+}

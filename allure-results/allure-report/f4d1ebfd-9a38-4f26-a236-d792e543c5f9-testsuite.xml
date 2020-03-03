@@ -1,0 +1,117 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1583165176512' stop='1583165186271'>
+    <name>performing opeartions in espn home page: Login with valid user credentials</name>
+    <title>performing opeartions in espn home page: Login with valid user credentials</title>
+    <test-cases>
+        <test-case start='1583165176513' status='passed' stop='1583165176514'>
+            <name>Hook</name>
+            <title>Hook</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1583165176514' status='passed' stop='1583165184458'>
+            <name>Given I'm on the Home page</name>
+            <title>Given I'm on the Home page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1583165184458' status='passed' stop='1583165185040'>
+            <name>When I click on log in option</name>
+            <title>When I click on log in option</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1583165185040' status='passed' stop='1583165185494'>
+            <name>And I shall be on login page</name>
+            <title>And I shall be on login page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1583165185494' status='broken' stop='1583165186270'>
+            <name>And I login with valid user credentials</name>
+            <title>And I login with valid user credentials</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Condition is not a function</message>
+                <stack-trace>Error: Condition is not a function
+                    at Browser._default (C:\Jeevan webdriver\Wedriverio2\node_modules\webdriverio\build\commands\browser\waitUntil.js:14:11)
+                    at Browser.runCommandWithHooks (C:\Jeevan webdriver\Wedriverio2\node_modules\@wdio\sync\build\wrapCommand.js:88:30)
+                    at processTicksAndRejections (internal/process/task_queues.js:94:5)
+                    at Browser.runCommandWithHooks (C:\Jeevan webdriver\Wedriverio2\node_modules\@wdio\sync\build\wrapCommand.js:82:22)
+                    at Browser.waitUntil (C:\Jeevan webdriver\Wedriverio2\node_modules\@wdio\sync\build\wrapCommand.js:59:40)
+                    at World.&lt;anonymous> (C:\Jeevan webdriver\Wedriverio2\src\steps/espn.stp.js:32:11)
+                    at World.executeSync (C:\Jeevan webdriver\Wedriverio2\node_modules\@wdio\sync\build\index.js:56:18)
+                    at C:\Jeevan webdriver\Wedriverio2\node_modules\@wdio\sync\build\index.js:82:70</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1583165186270' status='pending' stop='1583165186270'>
+            <name>Then I should be logged in successfully</name>
+            <title>Then I should be logged in successfully</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1583165186271' status='passed' stop='1583165186271'>
+            <name>Hook</name>
+            <title>Hook</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

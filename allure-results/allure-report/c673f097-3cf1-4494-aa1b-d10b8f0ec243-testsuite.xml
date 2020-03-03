@@ -1,0 +1,113 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1583166089980' stop='1583166104351'>
+    <name>performing opeartions in espn home page: Login with valid user credentials</name>
+    <title>performing opeartions in espn home page: Login with valid user credentials</title>
+    <test-cases>
+        <test-case start='1583166089981' status='passed' stop='1583166089982'>
+            <name>Hook</name>
+            <title>Hook</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1583166089982' status='passed' stop='1583166097104'>
+            <name>Given I'm on the Home page</name>
+            <title>Given I'm on the Home page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1583166097105' status='passed' stop='1583166097730'>
+            <name>When I click on log in option</name>
+            <title>When I click on log in option</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1583166097730' status='passed' stop='1583166098205'>
+            <name>And I shall be on login page</name>
+            <title>And I shall be on login page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1583166098205' status='passed' stop='1583166099041'>
+            <name>And I login with valid user credentials</name>
+            <title>And I login with valid user credentials</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1583166099041' status='broken' stop='1583166104350'>
+            <name>Then I should be logged in successfully</name>
+            <title>Then I should be logged in successfully</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>this.logoutBtn is not a function</message>
+                <stack-trace>TypeError: this.logoutBtn is not a function
+                    at LogoutPage.logoutButton (C:\Jeevan webdriver\Wedriverio2\src\pageobjects/logoutPage.js:16:11)
+                    at World.&lt;anonymous> (C:\Jeevan webdriver\Wedriverio2\src\steps/espn.stp.js:41:10)
+                    at World.executeSync (C:\Jeevan webdriver\Wedriverio2\node_modules\@wdio\sync\build\index.js:56:18)
+                    at C:\Jeevan webdriver\Wedriverio2\node_modules\@wdio\sync\build\index.js:82:70</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1583166104350' status='passed' stop='1583166104350'>
+            <name>Hook</name>
+            <title>Hook</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

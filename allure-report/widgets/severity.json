@@ -1,0 +1,161 @@
+[ {
+  "uid" : "e0494e82713a2b67",
+  "name" : "Given I'm on the Home page",
+  "time" : {
+    "start" : 1583209738685,
+    "stop" : 1583209745887,
+    "duration" : 7202
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "55e04376e7bb5a72",
+  "name" : "Given I'm on the Home page",
+  "time" : {
+    "start" : 1583209756002,
+    "stop" : 1583209758535,
+    "duration" : 2533
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "93e73637e8a6d195",
+  "name" : "When I click on log in option",
+  "time" : {
+    "start" : 1583209745887,
+    "stop" : 1583209746597,
+    "duration" : 710
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "496894d24ae04cc3",
+  "name" : "Given I'm on the Home page",
+  "time" : {
+    "start" : 1583209763814,
+    "stop" : 1583209766758,
+    "duration" : 2944
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b3e9e142b1f0ec1c",
+  "name" : "Then I should be logged in successfully",
+  "time" : {
+    "start" : 1583209747833,
+    "stop" : 1583209755994,
+    "duration" : 8161
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2aa6be65374f4efa",
+  "name" : "Hook",
+  "time" : {
+    "start" : 1583209768069,
+    "stop" : 1583209768069,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5d950c185c62d403",
+  "name" : "Then I should see user input section",
+  "time" : {
+    "start" : 1583209767489,
+    "stop" : 1583209768069,
+    "duration" : 580
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b8d06e6789faa2f7",
+  "name" : "And I login with invalid user credentials",
+  "time" : {
+    "start" : 1583209759594,
+    "stop" : 1583209763326,
+    "duration" : 3732
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2f27f787c5213d10",
+  "name" : "And I login with valid user credentials",
+  "time" : {
+    "start" : 1583209747052,
+    "stop" : 1583209747833,
+    "duration" : 781
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "198a8bc2c12bf16e",
+  "name" : "And I shall be on login page",
+  "time" : {
+    "start" : 1583209746597,
+    "stop" : 1583209747052,
+    "duration" : 455
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "19af70b2431aa592",
+  "name" : "When I click on search option",
+  "time" : {
+    "start" : 1583209766759,
+    "stop" : 1583209767489,
+    "duration" : 730
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ce581c4827575fc3",
+  "name" : "Hook",
+  "time" : {
+    "start" : 1583209763751,
+    "stop" : 1583209763752,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e2af2703c0aff064",
+  "name" : "Hook",
+  "time" : {
+    "start" : 1583209755994,
+    "stop" : 1583209755994,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e67a0c56081e9c41",
+  "name" : "And I shall be on login page",
+  "time" : {
+    "start" : 1583209759124,
+    "stop" : 1583209759594,
+    "duration" : 470
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6883e151d589c69a",
+  "name" : "When I click on log in option",
+  "time" : {
+    "start" : 1583209758535,
+    "stop" : 1583209759124,
+    "duration" : 589
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a3373dcc98997085",
+  "name" : "Then I should not get logged in",
+  "time" : {
+    "start" : 1583209763326,
+    "stop" : 1583209763751,
+    "duration" : 425
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,124 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1583163977057' stop='1583163981433'>
+    <name>performing opeartions in espn home page: Login with invalid user credentials</name>
+    <title>performing opeartions in espn home page: Login with invalid user credentials</title>
+    <test-cases>
+        <test-case start='1583163977057' status='passed' stop='1583163977057'>
+            <name>Hook</name>
+            <title>Hook</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1583163977058' status='passed' stop='1583163980891'>
+            <name>Given I'm on the Home page</name>
+            <title>Given I'm on the Home page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1583163980891' status='broken' stop='1583163981432'>
+            <name>When I click on log in option</name>
+            <title>When I click on log in option</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>element not interactable
+                  (Session info: chrome=80.0.3987.87)</message>
+                <stack-trace>element not interactable
+                  (Session info: chrome=80.0.3987.87)
+                    at getErrorFromResponseBody (C:\Jeevan webdriver\Wedriverio2\node_modules\webdriver\build\utils.js:124:10)
+                    at Request._callback (C:\Jeevan webdriver\Wedriverio2\node_modules\webdriver\build\request.js:111:64)
+                    at Request.self.callback (C:\Jeevan webdriver\Wedriverio2\node_modules\request\request.js:185:22)
+                    at Request.&lt;anonymous> (C:\Jeevan webdriver\Wedriverio2\node_modules\request\request.js:1161:10)
+                    at IncomingMessage.&lt;anonymous> (C:\Jeevan webdriver\Wedriverio2\node_modules\request\request.js:1083:12)
+                    at endReadableNT (_stream_readable.js:1185:12)
+                    at processTicksAndRejections (internal/process/task_queues.js:81:21)
+                    at Element.runCommandWithHooks (C:\Jeevan webdriver\Wedriverio2\node_modules\@wdio\sync\build\wrapCommand.js:82:22)
+                    at Element.wrapCommandFn (C:\Jeevan webdriver\Wedriverio2\node_modules\@wdio\sync\build\wrapCommand.js:59:40)
+                    at Element.click (C:\Jeevan webdriver\Wedriverio2\node_modules\webdriverio\build\middlewares.js:40:8)
+                    at World.&lt;anonymous> (C:\Jeevan webdriver\Wedriverio2\src\steps/espn.stp.js:19:24)
+                    at World.executeSync (C:\Jeevan webdriver\Wedriverio2\node_modules\@wdio\sync\build\index.js:56:18)
+                    at C:\Jeevan webdriver\Wedriverio2\node_modules\@wdio\sync\build\index.js:82:70</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1583163981432' status='pending' stop='1583163981432'>
+            <name>And I shall be on login page</name>
+            <title>And I shall be on login page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1583163981432' status='pending' stop='1583163981433'>
+            <name>And I login with invalid user credentials</name>
+            <title>And I login with invalid user credentials</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1583163981433' status='pending' stop='1583163981433'>
+            <name>Then I should not get logged in</name>
+            <title>Then I should not get logged in</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1583163981433' status='passed' stop='1583163981433'>
+            <name>Hook</name>
+            <title>Hook</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
